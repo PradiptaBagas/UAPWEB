@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>UAP NIM 095</title>
+</head>
+
+<body>
+
+    <h2>DATA BARANG</h2>
+
+    <table border="1px">
+        <tr>
+            <th>Kode</th>
+            <th>Nama Barang</th>
+            <th>Harga</th>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td style="text-align : center">A</td>
+            <td>10.000</td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td style="text-align : center">B</td>
+            <td>20.000</td>
+        </tr>
+        <tr>
+            <td>003</td>
+            <td style="text-align : center">C</td>
+            <td>30.000</td>
+        </tr>
+    </table>
+    <br>
+    <table border="1px">
+        <tr>
+            <th>Kode</th>
+            <th>Barang</th>
+            <th>Harga</th>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>Barang A</td>
+            <td>10.000</td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>Barang B</td>
+            <td>20.000</td>
+        </tr>
+        <tr>
+            <td>003</td>
+            <td>Barang C</td>
+            <td>30.000</td>
+        </tr>
+    </table>
+
+    <h2>ISI DATA</h2>
+
+    <table border="1px solid">
+        <tr>
+            <td>
+                <label for="kode1">Kode Barang : </label>
+                <input type="number" id="input_kode">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="kode2">Jumlah Barang :</label>
+                <input type="number" id="input_jumlah">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button onclick="kirim()">SUBMIT</button>
+            </td>
+        </tr>
+    </table>
+
+    <script src="data.js"></script>
+
+</body>
+
+</html>
